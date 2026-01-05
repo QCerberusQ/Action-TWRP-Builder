@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/QCerberusQ/android_twrp_device_nothing-Spacewar'
+        default: 'https://github.com/twrpdtgen/android_device_nothing_Spacewar'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'master'
+        default: 'lineage_Spacewar-user-15-BP1A.250505.005-eng.androi.20250516.154437-release-keys'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -26,11 +26,11 @@ on:
       KERNEL_SOURCE_URL:
         description: 'KERNEL_SOURCE_URL'
         required: true
-        default: 'https://github.com/QCerberusQ/android_kernel_nothing_sm7325'
+        default: 'https://github.com/QCerberusQ/android_kernel_msm-5.4_nothing_sm7325'
       KERNEL_SOURCE_BRANCH:
         description: 'KERNEL_SOURCE_BRANCH'
         required: true
-        default: '16.0'
+        default: 'experimental'
       KERNEL_SOURCE_PATH:
         description: 'KERNEL_SOURCE_PATH'
         required: true
